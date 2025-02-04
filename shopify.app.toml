@@ -1,0 +1,16 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "cd03eba0e539c3c7cb320949b3637d15"
+name = "paysecure"
+handle = "paysecure-2"
+application_url = "https://example.com/"
+embedded = false
+
+[auth]
+redirect_urls = [ "https://example.com/api/auth" ]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
